@@ -9,8 +9,9 @@ During presentation, the following items should be demonstrated
  - source code,
  - test plan and results,
  - executed program.
+ 
 For details see Lab requirements.
 
-## Objectives 
+## Lab requirements 
 
 A7. Given natural number n. Print all the factors of n.
