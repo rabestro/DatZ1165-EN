@@ -1,16 +1,43 @@
-# This is a sample Python script.
+import re
+from math import sqrt
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+"""
+ * Lab Task A7.
+ *
+ * Requirements.
+ *
+ * Program should output error message for incorrect input data.
+ * Program should allow repeated execution without quitting the program.
+"""
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# For a given number the function returns unsorted vector of it's factors.
+# Time Complexity of the algorithm is O(sqrt(N)).
+def factors(number):
+    divisors = []
+    for divisor in range(1, 1 + int(sqrt(number))):
+        if number % divisor > 0:
+            continue
+        divisors.append(divisor)
+        paired_divisor = number // divisor
+        if paired_divisor != divisor:
+            divisors.append(paired_divisor)
+    return divisors
 
 
-# Press the green button in the gutter to run the script.
+def user_interface():
+    print("The program prints factors of natural number.")
+    while True:
+        data = input("Enter a natural number (0 for exit):")
+        if not re.match(r"^\d+$", data):
+            print("The input is invalid")
+            continue
+        number = int(data)
+        if number == 0:
+            return
+        divisors = factors(number)
+        print(divisors)
+
+
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    user_interface()
