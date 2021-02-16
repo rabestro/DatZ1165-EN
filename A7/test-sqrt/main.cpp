@@ -8,7 +8,7 @@ int main() {
     cout << "Max: " << max << endl;
     unsigned long long maxParam = sqrt(max);
     cout << maxParam << endl;
-    auto delta = 0.0;
+    double delta = 0.0;
 
     for (auto i = maxParam - 1ul; i > 1; --i) {
         auto param = i * i;
