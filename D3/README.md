@@ -14,8 +14,8 @@ See also other published requirements.
 
 D3. Create class "Date" with three numbers stored - year, month, day. 
 The following class methods should be created: 
-(1) a constructor to initialize an object with given initial values, 
-(2) destructor which should notify about deleting the object, 
-(3) method "change" with 3 parameters, 
-(4) method "tomorrow" – which calculates and prints the next date, 
-(5) method "print", which prints the date.
+1. a constructor to initialize an object with given initial values, 
+2. destructor which should notify about deleting the object, 
+3. method "change" with 3 parameters, 
+4. method "tomorrow" – which calculates and prints the next date, 
+5. method "print", which prints the date.
