@@ -1,10 +1,11 @@
-#include <iostream>
+#include <cmath>
 #include <vector>
-#include<algorithm>
+#include <iostream>
+#include <algorithm>
 
 using namespace std;
 
-vector<long> factors(long number);
+vector<unsigned long> factors(unsigned long number);
 
 /*
  * Lab Task A7.
@@ -16,7 +17,7 @@ vector<long> factors(long number);
  */
 int main() {
     cout << "The program prints factors of natural number." << endl;
-    int number;
+    long number;
 
     do {
         cout << "Enter a natural number (0 for exit):" << endl;
@@ -36,6 +37,9 @@ int main() {
             for (int divisor : divisors) {
                 cout << ' ' << divisor;
             }
+            if (divisors.size() < 3) {
+                cout << " (prime number)";
+            }
             cout << endl;
         }
     } while (number != 0);
@@ -48,13 +52,13 @@ int main() {
  *
  * Time Complexity of the algorithm is O(sqrt(N)).
  */
-vector<long> factors(const long number) {
-    vector<long> divisors;
+vector<unsigned long> factors(unsigned long number) {
+    vector<unsigned long> divisors;
 
-    for (long divisor = 1; divisor * divisor <= number; ++divisor) {
+    for (unsigned long divisor = sqrt(number); divisor > 0; --divisor) {
         if (number % divisor == 0) {
             divisors.push_back(divisor);
-            const long paired_divisor = number / divisor;
+            const unsigned long paired_divisor = number / divisor;
             if (paired_divisor != divisor) {
                 divisors.push_back(paired_divisor);
             }
