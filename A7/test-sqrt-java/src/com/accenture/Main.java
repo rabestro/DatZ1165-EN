@@ -2,7 +2,6 @@ package com.accenture;
 
 public class Main {
     private static final long MAX_X = (long) Math.sqrt(Long.MAX_VALUE);
-    private static final long STEP = 1_000_000;
 
     public static void main(String[] args) {
         System.out.println(MAX_X);
