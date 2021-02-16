@@ -5,7 +5,8 @@
 
 using namespace std;
 
-vector<unsigned long> factors(unsigned long number);
+template <class T>
+vector<T> factors(T number);
 
 /*
  * Lab Task A7.
@@ -17,7 +18,7 @@ vector<unsigned long> factors(unsigned long number);
  */
 int main() {
     cout << "The program prints factors of natural number." << endl;
-    long number;
+    long long int number;
 
     do {
         cout << "Enter a natural number (0 for exit):" << endl;
@@ -49,16 +50,16 @@ int main() {
 
 /*
  * For a given number the function returns unsorted vector of it's factors.
- *
  * Time Complexity of the algorithm is O(sqrt(N)).
  */
-vector<unsigned long> factors(unsigned long number) {
-    vector<unsigned long> divisors;
+template <class T>
+vector<T> factors(T number) {
+    vector<T> divisors;
 
-    for (unsigned long divisor = sqrt(number); divisor > 0; --divisor) {
+    for (T divisor = sqrt(number); divisor > 0; --divisor) {
         if (number % divisor == 0) {
             divisors.push_back(divisor);
-            const unsigned long paired_divisor = number / divisor;
+            T paired_divisor = number / divisor;
             if (paired_divisor != divisor) {
                 divisors.push_back(paired_divisor);
             }
