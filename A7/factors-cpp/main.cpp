@@ -35,7 +35,7 @@ int main() {
              * So we sort the result for pretty output.
              */
             sort(divisors.begin(), divisors.end());
-            for (int divisor : divisors) {
+            for (auto divisor : divisors) {
                 cout << ' ' << divisor;
             }
             if (divisors.size() < 3) {
