@@ -31,7 +31,7 @@ int main() {
             auto divisors = factors(number);
             /*
              * The function returns unsorted vector.
-             * So we sort the result to pretty output.
+             * So we sort the result for pretty output.
              */
             sort(divisors.begin(), divisors.end());
             for (int divisor : divisors) {
