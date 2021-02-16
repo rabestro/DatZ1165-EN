@@ -1,6 +1,6 @@
 # Lab Task A7
 
-##Description
+## Description
 
 Create program both in C++, and Python. 
 Program should output error message for incorrect input data. 
