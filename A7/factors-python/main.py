@@ -36,6 +36,7 @@ def user_interface():
         if number == 0:
             return
         divisors = factors(number)
+        divisors.sort()
         print(divisors)
 
 
