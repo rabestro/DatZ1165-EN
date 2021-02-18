@@ -24,6 +24,9 @@ int main() {
         if (number == 0) {
             break;
         }
+        /*
+         * This is a bad practice to mix a logic with an user interface.
+         */
         for (int divisor = 1; divisor <= number / divisor; ++divisor) {
             if (number % divisor == 0) {
                 cout << divisor << ' ';
