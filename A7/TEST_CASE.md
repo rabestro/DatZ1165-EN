@@ -30,7 +30,8 @@
 |10|1 10 2 5
 |11|1 11
 |12|1 12 2 6 3 4
-|15|
-|16|
-|17|
-|36|
+|6563|1 6563 | The prime number
+|7517|1 7517 | The prime number
+|999331|1 999331|The circular prime number
+|7918|1 7918 2 3959 37 214 74 107 | The non prime number
+
