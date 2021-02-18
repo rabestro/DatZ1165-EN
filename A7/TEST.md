@@ -37,7 +37,7 @@ Take [perfect numbers](https://en.wikipedia.org/wiki/Perfect_number) from [the l
 
 ### (C++ only) Border case: very big numbers
 
-We should test the numbers very close to MAX_VALUE including the maximum possible number for long int. 
+We should test the numbers very close to the maximum values for our implementation. The maximum for long int is 2,147,483,647. The maximum for long long int is 18,446,744,073,709,551,615.
 
 ### Border case: perfect square numbers
 
