@@ -58,21 +58,22 @@
 
 | Input | Output | Comment |
 | --: | :-- | --- |
-| 1 |1|The prime number
-| 2|1 2|The prime number
-|3|1 3|The prime number
+| 1 |[1]|The prime number
+| 2|[1, 2]|The prime number
+|3|[1, 3]|The prime number
 |4|[1, 2, 4]
-|5|1 5|The prime number
-|6|1 6 2 3| The perfect number
-|7|1 7|The prime number
-|8|1 8 2 4
-|9|1 9 3
-|10|1 10 2 5| The deficient number|
-|11|1 11|The prime number
-|12|1 12 2 6 3 4| The abudant number
-|6563|1 6563 | The prime number
-|7517|1 7517 | The prime number
-|999331|1 999331|The circular prime number
-|7918|1 7918 2 3959 37 214 74 107 | The non prime number
-|9801|1 9801 3 3267 9 1089 11 891 27 363 33 297 81 121 99|The perfect square number
-|2147483647|1 2147483647| The maximum integer number (32bit)
+|5|[1, 5]|The prime number
+|6|[1, 2, 3, 6]| The perfect number
+|7|[1, 7]|The prime number
+|8|[1, 2, 4, 8]
+|9|[1, 3, 9]
+|10|[1, 2, 5, 10]| The deficient number|
+|11|[1, 11]|The prime number
+|12|[1, 2, 3, 4, 6, 12]| The abudant number
+|6563|[1, 6563] | The prime number
+|7517|[1, 7517] | The prime number
+|999331|[1, 999331]|The circular prime number
+|7918|[1, 2, 37, 74, 107, 214, 3959, 7918] | The non prime number
+|9801|[1, 3, 9, 11, 27, 33, 81, 99, 121, 297, 363, 891, 1089, 3267, 9801]|The perfect square number
+|2147483647|[1, 2147483647]| The maximum integer number (32bit)
+|2147483649|[1, 3, 715827883, 2147483649]| The python hasn't limits for numbers
