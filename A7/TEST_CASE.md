@@ -27,7 +27,7 @@
 |7|1 7|The prime number
 |8|1 8 2 4
 |9|1 9 3
-|10|1 10 2 5
+|10|1 10 2 5| The deficient number|
 |11|1 11|The prime number
 |12|1 12 2 6 3 4| The abudant number
 |6563|1 6563 | The prime number
