@@ -34,6 +34,7 @@
 |7517|1 7517 | The prime number
 |999331|1 999331|The circular prime number
 |7918|1 7918 2 3959 37 214 74 107 | The non prime number
+|9801|1 9801 3 3267 9 1089 11 891 27 363 33 297 81 121 99|The perfect square number
 |2147483647|1 2147483647| The maximum integer number (32bit)
 ```
 >2147483646
