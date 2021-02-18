@@ -18,7 +18,7 @@ vector<T> factors(T number);
  */
 int main() {
     cout << "The program prints factors of natural number." << endl;
-    long long int number;
+    int number;
 
     do {
         cout << "Enter a natural number (0 for exit):" << endl;
