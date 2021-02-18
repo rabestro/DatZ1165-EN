@@ -11,7 +11,7 @@ from math import sqrt
 """
 
 
-# For a given number the function returns unsorted vector of it's factors.
+# For a given number the function returns unsorted list of it's factors.
 # Time Complexity of the algorithm is O(sqrt(N)).
 def factors(number):
     divisors = []
