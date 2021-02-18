@@ -18,18 +18,18 @@
 
 | Input | Output | Comment |
 | --: | :-- | --- |
-| 1 |1|
-| 2|1 2|
-|3|1 3|
+| 1 |1|The prime number
+| 2|1 2|The prime number
+|3|1 3|The prime number
 |4|1 4 2
-|5|1 5
-|6|1 6 2 3
-|7|1 7
+|5|1 5|The prime number
+|6|1 6 2 3| The perfect number
+|7|1 7|The prime number
 |8|1 8 2 4
 |9|1 9 3
 |10|1 10 2 5
-|11|1 11
-|12|1 12 2 6 3 4
+|11|1 11|The prime number
+|12|1 12 2 6 3 4| The abudant number
 |6563|1 6563 | The prime number
 |7517|1 7517 | The prime number
 |999331|1 999331|The circular prime number
