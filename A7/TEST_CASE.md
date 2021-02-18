@@ -43,6 +43,8 @@
 
 ## Python program
 
+For Python program I used the simple regex to check the string, so no surprises there.
+
 ### Incorrect data
 
 | Input | Output | Comment |
