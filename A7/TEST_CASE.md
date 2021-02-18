@@ -61,7 +61,7 @@
 | 1 |1|The prime number
 | 2|1 2|The prime number
 |3|1 3|The prime number
-|4|1 4 2
+|4|[1, 2, 4]
 |5|1 5|The prime number
 |6|1 6 2 3| The perfect number
 |7|1 7|The prime number
