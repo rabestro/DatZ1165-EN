@@ -2,6 +2,14 @@
 
 using namespace std;
 
+/*
+ * Lab Task A7.
+ *
+ * Requirements.
+ *
+ * Program should output error message for incorrect input data.
+ * Program should allow repeated execution without quitting the program.
+ */
 int main() {
     cout << "The program prints factors of natural number." << endl;
 
