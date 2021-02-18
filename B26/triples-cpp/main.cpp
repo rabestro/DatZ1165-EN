@@ -3,15 +3,21 @@
 
 using namespace std;
 
-void printTriples(int n) {
+void printTriples(const int n) {
+    bool found = false;
     for (int x = sqrt(n); x >= 0; --x) {
-        for (int y = sqrt(n - x * x); y >= 0; --y) {
-            const int rest = n - x * x - y * y;
+        const int rest_x = n - x * x;
+        for (int y = sqrt(rest_x); y >= 0; --y) {
+            const int rest = rest_x - y * y;
             const int z = sqrt(rest);
             if (z * z == rest) {
+                found = true;
                 cout << '(' << x << ", " << y << ", " << z << ") " << endl;
             }
         }
+    }
+    if (not found) {
+        cout << "No triples found..." << endl;
     }
 }
 
