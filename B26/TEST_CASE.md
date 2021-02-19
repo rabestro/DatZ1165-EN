@@ -98,6 +98,7 @@ For Python program I used the simple regex to check the string, so no surprises 
 ```
 The program prints all triples of numbers (x, y, z) 
 where x^2+y^2+z^2 = n (if such triplets exist).
+
 Enter a natural number (0 for exit):Hi
 The input is invalid
 Enter a natural number (0 for exit):-23
