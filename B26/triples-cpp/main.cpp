@@ -1,10 +1,21 @@
+/*
+ * Lab Task B26.
+ *
+ * Requirements.
+ *
+ * Program should output error message for incorrect input data.
+ * Program should allow repeated execution without quitting the program.
+**/
+
 #include <iostream>
 #include <cmath>
 
 using namespace std;
 
-// The function prints all triples for a given number where x^2+y^2+z^2 = n
-// if no such triplets exist then "No triples found..." printed.
+/*
+ * The function prints all triples for a given number where x^2+y^2+z^2 = n
+ * if no such triplets exist then "No triples found..." printed.
+**/ 
 void printTriples(const int n) {
     bool found = false;
     for (int x = sqrt(n); x >= 0; --x) {
