@@ -35,6 +35,7 @@ Enter a natural number (0 for exit):
 Enter a natural number (0 for exit):
 3
 1^2 + 1^2 + 1^2 = 3
+
 Enter a natural number (0 for exit):
 4
 2^2 + 0^2 + 0^2 = 4
