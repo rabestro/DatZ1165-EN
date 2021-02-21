@@ -33,6 +33,26 @@ side diagonal: true
      vertical: true
 
 Enter size of square matrix (0 for exit):
+2
+Enter 4 numbers representing the square matrix:
+1 2
+3 4
+Is the matrix symmetric by ...
+main diagonal: false
+side diagonal: false
+   horizontal: false
+     vertical: false
+
+Enter size of square matrix (0 for exit):
+2
+Enter 4 numbers representing the square matrix:
+1 2
+2 3
+Is the matrix symmetric by ...
+main diagonal: true
+side diagonal: false
+   horizontal: false
+     vertical: false
 
 Enter size of square matrix (0 for exit):
 The program checks is given matrix symmetric.
