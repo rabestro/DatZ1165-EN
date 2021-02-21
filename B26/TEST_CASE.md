@@ -90,7 +90,7 @@ No triples found...
 
 Enter a natural number (0 for exit):
 > 2147483645
-... very long list of triples
+... a very long list of triples
 4^2 + 12925^2 + 44502^2 = 2147483645
 3^2 + 45994^2 + 5660^2 = 2147483645
 3^2 + 5660^2 + 45994^2 = 2147483645
