@@ -94,6 +94,7 @@ Enter a natural number (0 for exit):
 4^2 + 12925^2 + 44502^2 = 2147483645
 3^2 + 45994^2 + 5660^2 = 2147483645
 3^2 + 5660^2 + 45994^2 = 2147483645
+
 Enter a natural number (0 for exit):
 > 0
 
