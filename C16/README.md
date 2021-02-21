@@ -17,4 +17,4 @@ For details see Lab requirements.
 
 ## Lab requirements 
 
-C16. Given matrix A(m, n). Check - is given matrix symetric against center or any axes (horisontal or vertical).
+C16. Given matrix A(m, n). Check - is given matrix symmetric against center or any axes (horisontal or vertical).
