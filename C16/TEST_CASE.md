@@ -5,10 +5,9 @@
 ### Examples of use
 
 ```commandline
-The program prints all triples of numbers (x, y, z)
-where x^2+y^2+z^2 = n (if such triplets exist).
+The program checks is given matrix symmetric.
 
-Enter a natural number (0 for exit):
+Enter size of square matrix (0 for exit):
 1
 1^2 + 0^2 + 0^2 = 1
 0^2 + 1^2 + 0^2 = 1
