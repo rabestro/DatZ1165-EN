@@ -25,6 +25,7 @@ def triples(number):
     return result
 
 
+# The method represent user interface for the programm.
 def user_interface():
     print("The program prints all triples of numbers (x, y, z) ")
     print("where x^2+y^2+z^2 = n (if such triplets exist).")
