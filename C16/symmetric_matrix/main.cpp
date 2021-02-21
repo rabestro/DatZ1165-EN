@@ -1,6 +1,18 @@
+/*
+ * Lab Task C16.
+ *
+ * Requirements.
+ *
+ * Program should output error message for incorrect input data.
+ * Program should allow repeated execution without quitting the program.
+ *
+ *  Check - is given matrix symmetric against center or any axes (horizontal or vertical)
+**/
 #include <iostream>
 
-using namespace std;
+using std::cout;
+using std::cin;
+using std::endl;
 
 int main() {
     std::cout << "The program checks is given matrix symmetric." << endl;
