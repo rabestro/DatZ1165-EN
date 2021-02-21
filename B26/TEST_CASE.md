@@ -59,6 +59,7 @@ Enter a natural number (0 for exit):
 Enter a natural number (0 for exit):
 7
 No triples found...
+
 Enter a natural number (0 for exit):
 8
 2^2 + 2^2 + 0^2 = 8
@@ -84,9 +85,10 @@ Enter a natural number (0 for exit):
 0^2 + 1^2 + 3^2 = 10
 
 Enter a natural number (0 for exit):
-
 > 2147483647
 No triples found...
+
+Enter a natural number (0 for exit):
 > 2147483645
 ... very long list of triples
 4^2 + 12925^2 + 44502^2 = 2147483645
