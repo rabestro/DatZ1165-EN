@@ -82,5 +82,8 @@ side diagonal: false
      vertical: false
 
 Enter size of square matrix (0 for exit):
+0
+
+Process finished with exit code 0
 
 ```
