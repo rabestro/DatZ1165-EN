@@ -7,6 +7,7 @@
 - [Size 1](#size-1)
 - [Size 2](#size-2)
 - [Size 3](#size-3)
+- [Size 4](#size-4)
 
 #### Incorrect data
 
@@ -120,4 +121,49 @@ Enter size of square matrix (0 for exit):
 
 Process finished with exit code 0
 
+```
+
+#### Size 4
+
+```commandline
+C:\dev\DatZ1165-EN\C16\symmetric_matrix\cmake-build-debug\symetric_matrix.exe
+The program checks is given matrix symmetric.
+
+Enter size of square matrix (0 for exit):
+4
+Enter 16 numbers representing the matrix:
+5 9 7 1
+3 2 1 7
+8 1 2 9
+1 8 3 5
+Is the matrix symmetric against ...
+    main diagonal: false
+    side diagonal: true
+  horizontal axis: false
+    vertical axis: false
+
+Enter size of square matrix (0 for exit):
+4
+Enter 16 numbers representing the matrix:
+3 9 8 7
+1 2 5 4
+1 2 5 4
+3 9 8 7
+Is the matrix symmetric against ...
+    main diagonal: false
+    side diagonal: false
+  horizontal axis: true
+    vertical axis: false
+
+Enter size of square matrix (0 for exit):
+4
+Enter 16 numbers representing the matrix:
+2 2 2 2 2 2 2 2 7 7 7 7 7 7 7 7
+Is the matrix symmetric against ...
+    main diagonal: false
+    side diagonal: false
+  horizontal axis: false
+    vertical axis: true
+
+Enter size of square matrix (0 for exit):
 ```
