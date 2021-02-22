@@ -3,7 +3,7 @@
 ## C++ program 
 
 ### Examples of use
-- [Incorrect data](#Incorrect data)
+- [Incorrect data](#Incorrect-data)
 
 #### Incorrect data
 
