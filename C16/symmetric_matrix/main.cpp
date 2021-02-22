@@ -10,9 +10,7 @@
 **/
 #include <iostream>
 
-using std::cout;
-using std::cin;
-using std::endl;
+using namespace std;
 
 int main() {
     cout << "The program checks is given matrix symmetric." << endl;
@@ -30,7 +28,7 @@ int main() {
         }
         int cells = size * size;
         int matrix[cells];
-        cout << "Enter " << cells << " numbers representing the square matrix:" << endl;
+        cout << "Enter " << cells << " number" << (cells > 1 ? "s" : "") << " representing the matrix:" << endl;
         for (int i = 0; i < cells; ++i) cin >> matrix[i];
 
         bool main_diagonal = true;
@@ -44,11 +42,11 @@ int main() {
             horizontal &= matrix[i] == matrix[size * (size - i / size - 1) + i % size];
             vertical &= matrix[i] == matrix[size - i % size - 1 + i / size * size];
         }
-        cout << "Is the matrix symmetric by ..." << std::boolalpha << endl;
-        cout << "main diagonal: " << main_diagonal << endl;
-        cout << "side diagonal: " << side_diagonal << endl;
-        cout << "   horizontal: " << horizontal << endl;
-        cout << "     vertical: " << vertical << endl;
+        cout << "Is the matrix symmetric against ..." << boolalpha << endl;
+        cout << "    main diagonal: " << main_diagonal << endl;
+        cout << "    side diagonal: " << side_diagonal << endl;
+        cout << "  horizontal axis: " << horizontal << endl;
+        cout << "    vertical axis: " << vertical << endl;
     }
 
     return 0;
