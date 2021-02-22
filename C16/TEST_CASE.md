@@ -8,6 +8,7 @@
 - [Size 2](#size-2)
 - [Size 3](#size-3)
 - [Size 4](#size-4)
+- [Size 5](#size-5)
 
 #### Incorrect data
 
@@ -166,4 +167,29 @@ Is the matrix symmetric against ...
     vertical axis: true
 
 Enter size of square matrix (0 for exit):
+```
+
+#### Size 5
+```commandline
+The program checks is given matrix symmetric.
+
+Enter size of square matrix (0 for exit):
+5
+Enter 25 numbers representing the matrix:
+1 0 4 3 7
+0 2 9 5 3
+4 9 3 9 4
+3 5 9 2 0
+7 3 4 0 1
+Is the matrix symmetric against ...
+    main diagonal: true
+    side diagonal: true
+  horizontal axis: false
+    vertical axis: false
+
+Enter size of square matrix (0 for exit):
+0
+
+Process finished with exit code 0
+
 ```
