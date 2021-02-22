@@ -10,7 +10,7 @@ Program should allow repeated execution without quitting the program.
 
 During presentation, the following items should be demonstrated
  - [source code](symmetric_matrix/main.cpp),
- - [test plan](TEST_PLAN.ms) and [results](TEST_CASE.md),
+ - [test plan](TEST_PLAN.md) and [results](TEST_CASE.md),
  - executed program.
  
 For details see Lab requirements.
