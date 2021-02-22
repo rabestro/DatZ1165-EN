@@ -4,7 +4,11 @@ The [symmetric matrix](https://en.wikipedia.org/wiki/Symmetric_matrix) should be
 
 We limit our tests to size range \[1...5] because it is hard for manual testing to accurate enter all the numbers of large matrix. 
 
-The program should report is the matrix symmetric against
+The program should report is the matrix symmetric against:
+- main diagonal
+- side diagonal
+- horizontal axis
+- vertical axis
 
 ## Size 1
 
