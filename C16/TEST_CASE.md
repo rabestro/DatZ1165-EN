@@ -4,6 +4,9 @@
 
 ### Examples of use
 - [Incorrect data](#Incorrect-data)
+- [Size 1](#size-1)
+- [Size 2](#size-2)
+- [Size 3](#size-3)
 
 #### Incorrect data
 
