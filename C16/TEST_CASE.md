@@ -82,6 +82,13 @@ side diagonal: false
      vertical: false
 
 Enter size of square matrix (0 for exit):
+0
+
+Process finished with exit code 0
+```
+
+#### Size 3
+```commandline
 The program checks is given matrix symmetric.
 
 Enter size of square matrix (0 for exit):
