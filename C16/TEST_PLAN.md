@@ -16,7 +16,7 @@ All matrix of size 1 should be symmetric by main and side diagonals as well vert
 
 ## Size 2 and up
 
-Any matrix where all numbers is same should be symmetric.
+Any matrix where all numbers are same should be symmetric.
 
 
 
