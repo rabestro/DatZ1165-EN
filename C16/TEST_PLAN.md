@@ -18,5 +18,5 @@ All matrix of size 1 should be symmetric by main and side diagonals as well vert
 
 - Any matrix where all numbers are same should be symmetric.
 - If all number diffferent for matrix with size > 1 then it can't be symmtric against any diagonal or axis.
-- We provide data to test symmetric matrix against different diagonals and axises. 
+- We prepare and provide data to test symmetric matrix against different diagonals and axises. 
 
