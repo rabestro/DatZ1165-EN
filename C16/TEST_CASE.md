@@ -3,6 +3,12 @@
 ## C++ program 
 
 ### Examples of use
+- [Incorrect data](#Incorrect-data)
+- [Size 1](#size-1)
+- [Size 2](#size-2)
+- [Size 3](#size-3)
+
+#### Incorrect data
 
 ```commandline
 The program checks is given matrix symmetric.
@@ -12,14 +18,35 @@ Enter size of square matrix (0 for exit):
 The number should be positive or zero.
 
 Enter size of square matrix (0 for exit):
+0
+
+Process finished with exit code 0
+
+```
+#### Size 1
+
+```commandline
+The program checks is given matrix symmetric.
+
+Enter size of square matrix (0 for exit):
 1
 Enter 1 numbers representing the square matrix:
 7
-Is the matrix symmetric by ...
-main diagonal: true
-side diagonal: true
-   horizontal: true
-     vertical: true
+Is the matrix symmetric against ...
+     main diagonal: true
+     side diagonal: true
+   horizontal axis: true
+     vertical axis: true
+     
+Enter size of square matrix (0 for exit):
+0
+
+Process finished with exit code 0
+
+```
+#### Size 2
+```commandline
+The program checks is given matrix symmetric.
 
 Enter size of square matrix (0 for exit):
 2
@@ -55,6 +82,13 @@ side diagonal: false
      vertical: false
 
 Enter size of square matrix (0 for exit):
+0
+
+Process finished with exit code 0
+```
+
+#### Size 3
+```commandline
 The program checks is given matrix symmetric.
 
 Enter size of square matrix (0 for exit):
