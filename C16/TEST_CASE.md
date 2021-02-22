@@ -32,11 +32,11 @@ Enter size of square matrix (0 for exit):
 1
 Enter 1 numbers representing the square matrix:
 7
-Is the matrix symmetric by ...
-main diagonal: true
-side diagonal: true
-   horizontal: true
-     vertical: true
+Is the matrix symmetric against ...
+     main diagonal: true
+     side diagonal: true
+   horizontal axis: true
+     vertical axis: true
      
 Enter size of square matrix (0 for exit):
 0
