@@ -30,7 +30,7 @@ The program checks is given matrix symmetric.
 
 Enter size of square matrix (0 for exit):
 1
-Enter 1 numbers representing the square matrix:
+Enter 1 number representing the matrix:
 7
 Is the matrix symmetric against ...
      main diagonal: true
