@@ -4,12 +4,25 @@
 
 ### Examples of use
 
+#### Incorrect data
+
 ```commandline
 The program checks is given matrix symmetric.
 
 Enter size of square matrix (0 for exit):
 -3
 The number should be positive or zero.
+
+Enter size of square matrix (0 for exit):
+0
+
+Process finished with exit code 0
+
+```
+#### Size 1
+
+```commandline
+The program checks is given matrix symmetric.
 
 Enter size of square matrix (0 for exit):
 1
@@ -20,6 +33,16 @@ main diagonal: true
 side diagonal: true
    horizontal: true
      vertical: true
+     
+Enter size of square matrix (0 for exit):
+0
+
+Process finished with exit code 0
+
+```
+#### Size 2
+```commandline
+The program checks is given matrix symmetric.
 
 Enter size of square matrix (0 for exit):
 2
