@@ -2,7 +2,9 @@
 #define DATE_DATE_H
 
 class Date {
-
+private:
+    int  year, month, day;
+public:
 };
 
 
