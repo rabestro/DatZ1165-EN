@@ -12,13 +12,13 @@ Date::~Date() {
     std::cout << "The date object was destroyed" << std::endl;
 }
 
-void Date::change(int year, int month, int day) {
-    this->year = year;
-    this->month = month;
-    this->day = day;
+void Date::change(int y, int m, int d) {
+    year = y;
+    month = m;
+    day = d;
 }
 
-void Date::print() {
+void Date::print() const {
     printf("%4d-%02d-%02d\n", year, month, day);
 }
 

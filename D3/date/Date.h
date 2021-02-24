@@ -1,5 +1,4 @@
-#ifndef DATE_DATE_H
-#define DATE_DATE_H
+#pragma once
 
 class Date {
 private:
@@ -11,10 +10,10 @@ public:
 
     void change(int, int, int);
 
+    // calculates and prints the next date
     Date tomorrow();
 
-    void print();
+    // prints the date in format YYYY-MM-DD
+    void print() const;
 };
 
-
-#endif //DATE_DATE_H
