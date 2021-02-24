@@ -3,8 +3,17 @@
 
 class Date {
 private:
-    int  year, month, day;
+    int year, month, day;
 public:
+    Date(int, int, int);
+
+    ~Date();
+
+    void change(int, int, int);
+
+    Date tomorrow();
+
+    void print();
 };
 
 
