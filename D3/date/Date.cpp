@@ -9,10 +9,10 @@ Date::~Date() {
     std::cout << "~~~ The date object was destroyed ~~~" << std::endl;
 }
 
-void Date::change(int y, int m, int d) {
-    year = y;
-    month = m;
-    day = d;
+void Date::change(int year, int month, int day) {
+    this->year = year;
+    this->month = month;
+    this->day = day;
 }
 
 void Date::print() const {
