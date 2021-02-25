@@ -8,6 +8,7 @@ public:
 
     ~Date();
 
+    // change the date
     void change(int, int, int);
 
     // calculates and prints the next date
@@ -15,5 +16,9 @@ public:
 
     // prints the date in format YYYY-MM-DD
     void print() const;
+
+    bool is_leap_year() const {
+        return year % 400 == 0 || (year % 4 == 0 && year % 100 != 0);
+    }
 };
 
