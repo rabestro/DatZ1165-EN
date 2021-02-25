@@ -9,7 +9,7 @@ int main() {
 
     date.change(2000, 1, 2);
     date.print();
-
+    std::cout << "Tomorrow is ";
     date.tomorrow();
 
     return 0;
