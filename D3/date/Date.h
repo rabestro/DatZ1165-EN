@@ -12,7 +12,7 @@ public:
     void change(int, int, int);
 
     // calculates and prints the next date
-    void tomorrow() const;
+    void tomorrow();
 
     // prints the date in format YYYY-MM-DD
     void print() const;
