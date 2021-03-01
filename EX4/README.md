@@ -22,3 +22,7 @@ Print:
 1 - 0,02 
 1 - 0,01
 ```
+
+## Solution
+
+https://code.sololearn.com/c6gdlxH7j51M/?ref=app
