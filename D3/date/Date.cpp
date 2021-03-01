@@ -17,7 +17,7 @@ void Date::change(int year, int month, int day) {
 }
 
 void Date::print() const {
-    printf("%4d-%02d-%02d\n", year, month, day);
+    printf("%4d-%02d-%02d ", year, month, day);
 }
 
 void Date::tomorrow() {
@@ -30,9 +30,13 @@ void Date::tomorrow() {
         } else {
             ++day;
         }
-    } else if (day == 30 && (month == 4 || month == 6 || month == 9 || month == 11)) {
+    } else if (day < 30) {
+        ++day;
+    } else if (month == 4 || month == 6 || month == 9 || month == 11) {
         day = 1;
         ++month;
+    } else if (day == 30) {
+        ++day;
     } else if (month == 12) {
         day = 1;
         month = 1;
@@ -41,6 +45,6 @@ void Date::tomorrow() {
         day = 1;
         ++month;
     }
-    std::cout << "Tomorrow is ";
+    std::cout << "-> ";
     print();
 }
