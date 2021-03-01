@@ -2,8 +2,10 @@
 Enter from keyboard real number with 2 digits after decimal separator. Print entered amount of EUR splitted in nominals. Print how many pieces of money of each nominal are necessary to get entered amount.
 ## Example:
 
-Enter: 138.53
-
+Enter: 
+```
+138.53
+```
 Print:
 ```
 0 - 500 
