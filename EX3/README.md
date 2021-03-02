@@ -13,4 +13,4 @@ Enter: 12312aas.​Print: 12312aas
 
 ## Solution
 
-http://cpp.sh/9svs3
+http://cpp.sh/3wj4z
