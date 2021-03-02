@@ -13,4 +13,6 @@ Enter: 12312aas.​Print: 12312aas
 
 ## Solution
 
+https://code.sololearn.com/c2LG8BVavf4L/?ref=app
+
 http://cpp.sh/3wj4z
