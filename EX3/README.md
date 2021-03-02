@@ -10,3 +10,7 @@ Enter: Asa Desa​​Print: Asa Desa
 Enter: as43242fdsf.​Print: As43242fdsf
 Enter: 12312aas.​Print: 12312aas
 ```
+
+## Solution
+
+http://cpp.sh/9svs3
