@@ -2,24 +2,31 @@
 
 ```text
 C:\dev\DatZ1165-EN\D3\date\cmake-build-debug\date.exe
+
 Test 1. Create and delete an date object.
     -> The date object was created -
-1998-01-01 changed to 2000-12-30
+1998-01-01
     ~~ The date object was destroyed ~
 
-Test 2. Create an array of dates and test tomorrow method
+
+Test 2. Method change.
     -> The date object was created -
-    -> The date object was created -
-    -> The date object was created -
-    -> The date object was created -
-    -> The date object was created -
-    -> The date object was created -
-    -> The date object was created -
-    -> The date object was created -
-    -> The date object was created -
-1999-01-27 -> 1999-01-28 -> 1999-01-29 -> 1999-01-30 -> 1999-01-31 -> 1999-02-01
+1800-02-01 changed to 2000-12-30
     ~~ The date object was destroyed ~
-1999-02-27 -> 1999-02-28 -> 1999-03-01 -> 1999-03-02 -> 1999-03-03 -> 1999-03-04
+
+Test 3. Create an array of dates and test tomorrow method
+    -> The date object was created -
+    -> The date object was created -
+    -> The date object was created -
+    -> The date object was created -
+    -> The date object was created -
+    -> The date object was created -
+    -> The date object was created -
+    -> The date object was created -
+    -> The date object was created -
+1600-02-27 -> 1600-02-28 -> 1600-02-29 -> 1600-03-01 -> 1600-03-02 -> 1600-03-03
+    ~~ The date object was destroyed ~
+1700-02-27 -> 1700-02-28 -> 1700-03-01 -> 1700-03-02 -> 1700-03-03 -> 1700-03-04
     ~~ The date object was destroyed ~
 1999-03-27 -> 1999-03-28 -> 1999-03-29 -> 1999-03-30 -> 1999-03-31 -> 1999-04-01
     ~~ The date object was destroyed ~
@@ -46,4 +53,5 @@ Test 2. Create an array of dates and test tomorrow method
     ~~ The date object was destroyed ~
 
 Process finished with exit code 0
+
 ```
