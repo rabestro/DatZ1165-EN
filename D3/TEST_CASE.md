@@ -1,6 +1,6 @@
 # Test Case 
 
-```console
+```text
 C:\dev\DatZ1165-EN\D3\date\cmake-build-debug\date.exe
 Test 1. Create and delete an date object.
     -> The date object was created -
