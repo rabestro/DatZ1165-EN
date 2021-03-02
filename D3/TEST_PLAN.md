@@ -10,4 +10,4 @@ The test should demonstrate that method change works properly
 
 ## Method tomorrow
 
-The test should prof that method tomorrow works properly fore each months as well for regular and [leap years](https://en.wikipedia.org/wiki/Leap_year).
+The test should prof that method tomorrow works properly for each months as well for regular and [leap years](https://en.wikipedia.org/wiki/Leap_year).
