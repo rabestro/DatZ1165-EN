@@ -2,12 +2,14 @@
 #include <iostream>
 #include "Date.h"
 
+using std::endl;
+
 Date::Date(int year, int month, int day) : year(year), month(month), day(day) {
-    std::cout << "--- The date object was created ---" << std::endl;
+    std::cout << "    -> The date object was created -" << endl;
 }
 
 Date::~Date() {
-    std::cout << "~~~ The date object was destroyed ~~~" << std::endl;
+    std::cout << "    ~~ The date object was destroyed ~" << endl;
 }
 
 void Date::change(int year, int month, int day) {
