@@ -13,20 +13,27 @@ using namespace std;
 **/
 int main() {
 
-    cout << "Test 1. Create and delete an date object." << endl;
+    cout << endl << "Test 1. Create and delete an date object." << endl;
 
-    Date *test1 = new Date(1998, 01, 01);
-    test1->print();
-    cout << "changed to ";
-    test1->change(2000, 12, 30);
-    test1->print();
+    Date *test_date = new Date(1998, 01, 01);
+    test_date->print();
     cout << endl;
-    delete test1;
+    delete test_date;
 
-    cout << endl << "Test 2. Create an array of dates and test tomorrow method " << endl;
+    cout << endl << endl << "Test 2. Method change." << endl;
+    test_date = new Date(1800, 02, 01);
+    test_date->print();
+    cout << "changed to ";
+    test_date->change(2000, 12, 30);
+    test_date->print();
+    cout << endl;
+    delete test_date;
+
+
+    cout << endl << "Test 3. Create an array of dates and test tomorrow method " << endl;
 
     Date dates[] = {
-            Date(1999, 1, 27), Date(1999, 2, 27), Date(1999, 3, 27), Date(1999, 4, 27),
+            Date(1600, 2, 27), Date(1700, 2, 27), Date(1999, 3, 27), Date(1999, 4, 27),
             Date(2020, 2, 27), Date(400, 2, 27), Date(2021, 2, 27), Date(2020, 2, 28),
             Date(1999, 12, 28)
     };

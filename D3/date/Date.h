@@ -17,6 +17,7 @@ public:
     // prints the date in format YYYY-MM-DD
     void print() const;
 
+    // Checks is date is loop year
     bool is_leap_year() const {
         return year % 400 == 0 || (year % 4 == 0 && year % 100 != 0);
     }
