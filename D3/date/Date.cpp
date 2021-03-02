@@ -3,13 +3,14 @@
 #include "Date.h"
 
 using std::endl;
+using std::cout;
 
 Date::Date(int year, int month, int day) : year(year), month(month), day(day) {
-    std::cout << "    -> The date object was created -" << endl;
+    cout << "    -> The date object was created -" << endl;
 }
 
 Date::~Date() {
-    std::cout << "    ~~ The date object was destroyed ~" << endl;
+    cout << "    ~~ The date object was destroyed ~" << endl;
 }
 
 void Date::change(int year, int month, int day) {
@@ -27,8 +28,8 @@ void Date::tomorrow() {
         ++day;
     } else if (month == 2) {
         if (!is_leap_year() or day == 29) {
-            ++month;
             day = 1;
+            ++month;
         } else {
             ++day;
         }
@@ -47,6 +48,6 @@ void Date::tomorrow() {
         day = 1;
         ++month;
     }
-    std::cout << "-> ";
+    cout << "-> ";
     print();
 }
