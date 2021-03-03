@@ -21,13 +21,9 @@ Print:
 00000000
 ```
 
-## Solution
-
-https://code.sololearn.com/c7Zg3YC0pxh1/?ref=app
-
 ## Test case
 
-```console
+```text
 C:\dev\DatZ1165-EN\EX1\cmake-build-debug\EX1.exe
 g 7
 00001000
@@ -41,3 +37,8 @@ g 7
 
 Process finished with exit code 0
 ```
+
+## Online Sandbox
+
+https://code.sololearn.com/c7Zg3YC0pxh1/?ref=app
+
