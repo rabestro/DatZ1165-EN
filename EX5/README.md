@@ -8,6 +8,10 @@ Remember Pythagorean theorem c² = a² + b²
 
 Examples you can find in link: https://en.wikipedia.org/wiki/Pythagorean_triple
 
+## Sandbox
+
+Sololearn: https://code.sololearn.com/cA9A11A11A1a
+
 ## Test case
 
 ```text
