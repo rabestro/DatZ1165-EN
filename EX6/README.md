@@ -41,7 +41,7 @@ The winner of 1. set is 2 player.
 18
 2 player result is:
 18
-Spare in 2. set ΓÇô no winner.
+Spare in 2. set - no winner.
 --> Total result is 0:1
 3.set:
 1 player result is:
@@ -76,7 +76,7 @@ The winner of 6. set is 2 player.
 15
 2 player result is:
 15
-Spare in 7. set ΓÇô no winner.
+Spare in 7. set - no winner.
 --> Total result is 1:4
 8.set:
 1 player result is:
@@ -97,7 +97,7 @@ The winner of 9. set is 1 player.
 21
 2 player result is:
 21
-Spare in 10. set ΓÇô no winner.
+Spare in 10. set - no winner.
 --> Total result is 3:4
 
 Process finished with exit code 0
