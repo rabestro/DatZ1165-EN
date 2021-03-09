@@ -15,4 +15,4 @@ For details see Lab requirements.
 ## Lab requirements 
 
 B26. Given natural number n. 
-Print all triples of numbers (x, y, z) where x^2+y^2+z^2 = n (if such trplets exist). Create and use function to calculate square sum of 3 numbers.
+Print all triples of numbers (x, y, z) where x²+y²+z² = n (if such trplets exist). Create and use function to calculate square sum of 3 numbers.
