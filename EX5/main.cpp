@@ -33,17 +33,14 @@ int main() {
     cout << "where each number < n and a² + b² = c² (if such triplets exist)." << endl;
 
     int number;
-    for (;;) {
-        cout << endl << "Enter a natural number (0 for exit):" << endl;
-        cin >> number;
-        if (number < 0) {
-            cout << "The number should be positive." << endl;
-            continue;
-        }
-        if (number == 0) {
-            break;
-        }
+    cout << endl << "Enter a natural number (0 for exit):" << endl;
+    cin >> number;
+
+    if (number > 0) {
+        cout << endl << "The number is " << number << endl << endl;
         printTriples(number);
+    } else {
+        cout << "The number should be positive." << endl;
     }
 
     return 0;
