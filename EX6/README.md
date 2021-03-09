@@ -5,8 +5,8 @@ Two boys are playing card game 10 times. After each set, they count points and e
 - If both players have points more than 21 or both have less than 21 then winner is player with result closer to 21.
 
 ## Example: 
-(Bolded data are entered from keyboard)
-
+_Bolded data are entered from keyboard_
+```
 1.set: 1 player result is: **18**
 2 player result is: **20**
 The winner of 1. set is 2 player. Total result is 0:1
@@ -20,3 +20,4 @@ Spare in 3. set – no winner. Total result is 1:1
 2 player result is: **23**
 The winner of 4. set is 1 player. Total result is 2:1
 ……
+```
