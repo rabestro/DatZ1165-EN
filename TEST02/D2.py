@@ -2,7 +2,7 @@
   D2
     Given natural number N. 
     Print first N even natural numbers neither divisible by 3 nor 5 in reverse order. 
-    Example. N = 10; answer: 2,4,8,14,16,22,26,28,32,34.
+    Example. N = 10; answer: 34,32,28,26,22,16,14,8,4,2.
 """
 
 n = int(input())
