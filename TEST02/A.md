@@ -10,9 +10,11 @@ The return type of the function is declared along with the function prototype.
 
 ### Example
 
+```cpp
 double sum(int a, int b){
     return a + b;
 }
+```
 
 Here double is return type of the function.
 
@@ -28,12 +30,13 @@ In pass by reference technique, we use these references of actual parameters and
 the changes made to formal parameters in the function are reflected back to the calling function.
 
 ### Example 
-
+```cpp
 void swap(int &a, int &b){
    int temp = a;
    a = b;
    b = temp;
  }
+ ```
 
 ### Sources: 
 	https://www.softwaretestinghelp.com/functions-in-cpp/
