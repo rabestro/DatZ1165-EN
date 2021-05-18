@@ -12,3 +12,15 @@
 
 6) Consultations during the test in MS Teams.
 
+## Task A
+
+_Describe the notion: C-style strings vs C++-strings._
+
+## Solution
+
+## Task B
+
+Calculate whether the character string s contains at least two occurrences of equal adjacent characters. Example #1. s=“a12bb34c”, answer=no (only ‘bb’). Example #2. s=“a12bb34ccc”, answer=yes (even 3: bb,cc,cc).
+
+## Task C
+
